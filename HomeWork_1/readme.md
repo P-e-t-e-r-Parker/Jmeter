@@ -4,7 +4,7 @@ http://162.55.220.72:5005
 
 Дать нагрузку на 50, 250, 500 потоков.
 Настройки Jmeter, файл .jmx выгружаем на гит.
-### <center>[Ссылка: настройки Jmeter](https://)</center>
+### <center>[Ссылка: настройки Jmeter](https://github.com/P-e-t-e-r-Parker/Jmeter/blob/main/HomeWork_1/Settings.jmx)</center>
 
 
 1) http://162.55.220.72:5005/get_method
