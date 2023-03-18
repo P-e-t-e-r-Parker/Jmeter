@@ -1,5 +1,4 @@
-### 1) 
-http://5.75.203.123/user_info
+### 1) http://5.75.203.123/user_info
 req. (RAW JSON)
 POST
 age: int
