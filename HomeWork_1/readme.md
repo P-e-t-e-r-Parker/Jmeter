@@ -2,7 +2,7 @@
 Сделать сценарий с перечисленными эндпоинтами
 http://162.55.220.72:5005
 
-Дать нагрузку на 50, 250, 500 потоков.
+Дать нагрузку на [50](https://github.com/P-e-t-e-r-Parker/Jmeter/blob/main/HomeWork_1/Result(50).csv), [250](https://github.com/P-e-t-e-r-Parker/Jmeter/blob/main/HomeWork_1/Result(250).csv), [500](https://github.com/P-e-t-e-r-Parker/Jmeter/blob/main/HomeWork_1/Result(500).csv) потоков.
 Настройки Jmeter, файл .jmx выгружаем на гит.
 ### <center>[Ссылка: настройки Jmeter](https://github.com/P-e-t-e-r-Parker/Jmeter/blob/main/HomeWork_1/Settings.jmx)</center>
 
