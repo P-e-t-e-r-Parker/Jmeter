@@ -21,7 +21,7 @@ resp.
 
 ===================
 
-### :heavy_check_mark: 2) http://5.75.203.123/new_data
+#### :heavy_check_mark: 2) http://5.75.203.123/new_data
 req.
 POST
 age: int
@@ -39,7 +39,7 @@ Resp.
 
 ===================
 
-### :heavy_check_mark: 3) http://5.75.203.123/test_pet_info
+#### :heavy_check_mark: 3) http://5.75.203.123/test_pet_info
 req.
 POST
 age: int
@@ -64,7 +64,7 @@ Resp.
 1) Сделать Assertion на провекрку статус код 200                  
 2) Сделать Assertion на провекрку 'daily_food':weight * 0.012     
 
-### :heavy_check_mark: 4) http://5.75.203.123/get_test_user
+#### :heavy_check_mark: 4) http://5.75.203.123/get_test_user
 req.
 POST
 age: int
