@@ -1,4 +1,4 @@
-### 1) http://5.75.203.123/user_info
+## 1) http://5.75.203.123/user_info
 req. (RAW JSON)
 POST
 age: int
@@ -16,12 +16,12 @@ resp.
                                 'u_salary_1.5_year': salary * 4}
                                 }
 
-Действия:
-1) Достать из Respose значение из поля 'qa_salary_after_6_months' и передать в поле salary запроса http://162.55.220.72:5005/new_data
+### Действия:
+Достать из Respose значение из поля 'qa_salary_after_6_months' и передать в поле salary запроса http://162.55.220.72:5005/new_data
 
 ===================
 
-2) http://5.75.203.123/new_data
+## 2) http://5.75.203.123/new_data
 req.
 POST
 age: int
@@ -34,8 +34,8 @@ Resp.
   'age': int(age),
   'salary': [salary, str(salary*2), str(salary*3)]}
 
-Действия:
-1) Достать из Respose значение из поля 'name' и передать в поле name запроса http://162.55.220.72:5005/test_pet_info
+### Действия:
+Достать из Respose значение из поля 'name' и передать в поле name запроса http://162.55.220.72:5005/test_pet_info
 
 ===================
 
