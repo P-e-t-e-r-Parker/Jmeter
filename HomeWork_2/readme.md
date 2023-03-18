@@ -21,7 +21,7 @@ resp.
 
 ===================
 
-## 2) http://5.75.203.123/new_data
+### 2) http://5.75.203.123/new_data
 req.
 POST
 age: int
@@ -34,12 +34,12 @@ Resp.
   'age': int(age),
   'salary': [salary, str(salary*2), str(salary*3)]}
 
-### Действия:
+#### Действия:
 Достать из Respose значение из поля 'name' и передать в поле name запроса http://162.55.220.72:5005/test_pet_info
 
 ===================
 
-3) http://5.75.203.123/test_pet_info
+### 3) http://5.75.203.123/test_pet_info
 req.
 POST
 age: int
@@ -55,18 +55,16 @@ Resp.
  'daily_sleep': weight * 2.5}
 
 
-Тесты:
-1) Достать из Respose значение из поля age и передать в поле age запроса http://162.55.220.72:5005/get_test_user
+#### Тесты:
+Достать из Respose значение из поля age и передать в поле age запроса http://162.55.220.72:5005/get_test_user
 
 
 Задание ***
-0) Изучать как работают Response Assertion.                       ====  +
-1) Сделать Assertion на провекрку статус код 200                  ====  +
+0) Изучать как работают Response Assertion.                       
+1) Сделать Assertion на провекрку статус код 200                  
 2) Сделать Assertion на провекрку 'daily_food':weight * 0.012     
 
-===================
-
-4) http://5.75.203.123/get_test_user
+### 4) http://5.75.203.123/get_test_user
 req.
 POST
 age: int
@@ -82,8 +80,7 @@ Resp.
  'u_salary_1.5_year': salary * 4}
   }
 
-Тесты:
-Задание ***
-0) Изучать как работают Response Assertion.        ====  +
-1) Сделать Assertion на провекрку статус код 200   ====  +
+### Задание ***
+0) Изучать как работают Response Assertion.        
+1) Сделать Assertion на провекрку статус код 200   
 2) Сделать Assertion на провекрку 'salary': salary 
